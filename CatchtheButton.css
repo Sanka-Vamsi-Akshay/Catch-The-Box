@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #6fbf73, #42a5f5, #fdd835);
+}
+
+.header{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header h1{
+    font-size: 70px;
+    margin: 0;
+    font-weight: 900;
+
+    background: linear-gradient(180deg, #ffeb3b, #ff9800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-shadow: 
+        2px 2px 0 #d84315,
+        4px 4px 10px rgba(0,0,0,0.4);
+}
+
+.header h3{
+    margin: 0;
+  font-size: 28px;
+  letter-spacing: 4px;
+  color: #ffcc80;
+
+  text-shadow: 
+    1px 1px 0 #bf360c,
+    2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.header .info{
+  font-size: 16px;
+  color: #fff3cd;
+
+  background: rgba(0,0,0,0.2);
+  padding: 6px 12px;
+  border-radius: 8px;
+
+  display: inline-block;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .start{
+    padding: 15px 30px;
+    font-size: 28px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(145deg, #00ff87, #00c853);
+    cursor: pointer;
+    box-shadow: 0 5px 0 #007a3d;
+    transition: 0.2s;
+}
+
+.container .start:hover{
+    scale: 1.1;
+}
+
+.container .box{
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    color: aliceblue;
+    background-image: url("Box.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.container .box:active{
+    background-image: url("BoxPop.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container .end{
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.container .end h3{
+    color: #860f03;
+    font-size: 30px;
+}
+
+.container .end h1{
+    color: #ff3d00;
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.container .end .home, .container .end .retry{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    transition: 0.2s;
+}
+
+.container .end .home{
+    background: linear-gradient(145deg, #8bc34a, #4caf50);
+    color: white;
+}
+
+.container .end .retry{
+    background: linear-gradient(145deg, #42a5f5, #1e88e5);
+    color: white;
+}
+
+.container .end .home:hover, .container .end .retry:hover{
+    scale: 1.1;
+}
