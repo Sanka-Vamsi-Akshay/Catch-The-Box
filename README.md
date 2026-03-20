@@ -2,6 +2,13 @@
 
 A fast-paced browser game where your goal is to click (catch) the box as many times as possible before time runs out.
 
+---
+
+## 🚀 Live Demo
+👉 https://sanka-vamsi-akshay.github.io/Catch-The-Box/
+
+---
+
 ## 🕹️ How to Play
 - Click **HIT!** to start the game
 - A box appears on the screen
