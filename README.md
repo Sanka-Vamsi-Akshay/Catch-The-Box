@@ -5,7 +5,7 @@ A fast-paced browser game where your goal is to click (catch) the box as many ti
 ---
 
 ## 🚀 Live Demo
-👉 https://sanka-vamsi-akshay.github.io/Catch-The-Box/
+👉 https://catch-the-box-six.vercel.app/
 
 ---
 
